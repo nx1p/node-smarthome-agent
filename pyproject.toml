@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "node-smarthome-agent"
+version = "0.1.0"
+description = ""
+authors = ["nx1p <email@marci.tech>"]
+readme = "README.md"
+packages = [{include = "node_smarthome_agent"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+litellm = "^1.42.12"
+#magentic = "0.24.0"
+#magentic = {git = "https://github.com/mnicstruwig/magentic.git", rev = "feature/streamed-response"}
+rich = "^13.7.1"
+#anthropic = "0.26.0"
+anthropic = "^0.32.0"
+magentic = "^0.28.1"
+logfire = "^0.49.1"
+phidata = "^2.4.27"
+thefuzz = "^0.22.1"
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
